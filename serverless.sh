@@ -37,4 +37,4 @@ else
   cd $base/ && git add . && git commit -m "Build PROD: $date"
 fi
 
-#git push
+git push
