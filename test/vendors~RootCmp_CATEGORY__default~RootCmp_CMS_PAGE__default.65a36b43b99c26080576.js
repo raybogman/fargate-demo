@@ -1,4 +1,7 @@
-/*! @version 0.0.1-04ec264c2a349ef4b4db */
+/*!
+ * @version ce7c103-dev
+ * 
+ */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[6],{"206z":function(e,t,n){"use strict"
 t.a=function(e){var t={}
 try{var n=new URL("https://venia-develop-ccewfjy-mfwmkrjfqvbjk.us-4.magentosite.cloud/"),o=new URL(e)

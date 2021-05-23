@@ -1,14 +1,14 @@
 {
   "RootCmp_CMS_PAGE__default.js": "/RootCmp_CMS_PAGE__default.2859fe08f346e9e8d32e.js",
   "RootCmp_SEARCH__default.js": "/RootCmp_SEARCH__default.d29832d46a925d8178b2.js",
-  "client.js": "/client.0008b7ed14dc79b6d202.js",
-  "ecs-fargate-red.svg": "/ecs-fargate-red-tvS.svg",
+  "client.js": "/client.1f6df8fc96fc898e0460.js",
+  "ecs-fargate-prod.svg": "/ecs-fargate-prod-4jK.svg",
   "entrypoints": {
     "client": {
       "js": [
         "/runtime.9537c30bd7ae295d31ba.js",
         "/vendors.baa8fa095018f8350f92.js",
-        "/client.0008b7ed14dc79b6d202.js"
+        "/client.1f6df8fc96fc898e0460.js"
       ]
     }
   },
@@ -27,7 +27,7 @@
     "load": [
       "/runtime.9537c30bd7ae295d31ba.js",
       "/vendors.baa8fa095018f8350f92.js",
-      "/client.0008b7ed14dc79b6d202.js"
+      "/client.1f6df8fc96fc898e0460.js"
     ],
     "prefetch": [
       "/RootCmp_CMS_PAGE__default.2859fe08f346e9e8d32e.js",
@@ -37,7 +37,7 @@
   "js": {
     "RootCmp_CMS_PAGE__default": "/RootCmp_CMS_PAGE__default.2859fe08f346e9e8d32e.js",
     "RootCmp_SEARCH__default": "/RootCmp_SEARCH__default.d29832d46a925d8178b2.js",
-    "client": "/client.0008b7ed14dc79b6d202.js",
+    "client": "/client.1f6df8fc96fc898e0460.js",
     "i18n-en_US": "/i18n-en_US.61df5ef7885668b93d71.js",
     "runtime": "/runtime.9537c30bd7ae295d31ba.js",
     "vendors": "/vendors.baa8fa095018f8350f92.js",
@@ -48,7 +48,7 @@
     "vendors~acdl": "/vendors~acdl.88ffcce4dd47417d7a97.js"
   },
   "svg": {
-    "ecs-fargate-red": "/ecs-fargate-red-tvS.svg"
+    "ecs-fargate-prod": "/ecs-fargate-prod-4jK.svg"
   },
   "png": {
     "errorViewBackground-1400x600": "/errorViewBackground-1400x600-h5e.png",

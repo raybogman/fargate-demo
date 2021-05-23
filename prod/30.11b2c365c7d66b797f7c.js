@@ -1,4 +1,7 @@
-/*! @version 0.0.1-36c068ad0617cd8abe64 */
+/*!
+ * @version ce7c103-dev
+ * 
+ */
 (window.webpackJsonp=window.webpackJsonp||[]).push([[30],{"+jtD":function(n,e,t){"use strict"
 t.r(e)
 var a=t("q1tI"),o=t.n(a),r=t("dDsW"),i=t("17x9"),s=t("y1Xp"),l=t("kriW"),d=t("7X3U"),c=t("6QXU"),m=t("rWlO"),g=t("lX7o"),u=t("LGPB"),f=t("HTR8"),h=t("LboF"),p=t.n(h),b=t("AwYx"),w=t.n(b),y={injectType:"singletonStyleTag",insert:"head",singleton:!0},v=(p()(w.a,y),w.a.locals||{}),T=function EditForm(n){var e=n.classes,t=n.handleChangePassword,i=n.shouldShowNewPassword,h=Object(r.a)().formatMessage,p=Object(s.a)(v,e),b=i?o.a.createElement("div",{className:p.newPassword},o.a.createElement(m.a,{fieldName:"newPassword",label:h({id:"global.newPassword",defaultMessage:"New Password"}),validate:Object(f.a)([u.c,[u.a,8],u.d,[u.b,"password"]]),isToggleButtonHidden:!1})):null,w=i?null:o.a.createElement("div",{className:p.changePasswordButtonContainer},o.a.createElement(c.a,{classes:p.changePasswordButton,type:"button",onClick:t},o.a.createElement(l.a,{id:"global.changePassword",defaultMessage:"Change Password"}))),y=h(i?{id:"global.currentPassword",defaultMessage:"Current Password"}:{id:"global.password",defaultMessage:"Password"})

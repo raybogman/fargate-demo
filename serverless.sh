@@ -5,8 +5,8 @@
 
 dist='./fargate/dist'
 base='./serverless'
-pub_prod='./serverless/pub_prod'
-pub_test='./serverless/pub_test'
+pub_prod='./serverless/prod'
+pub_test='./serverless/test'
 CONFIG_ENV_FILE='./fargate/.env'
 date=$(date '+%Y-%m-%d--%H:%M:%S')
 
@@ -32,9 +32,9 @@ fi
 
 # Optional auto git push option && Alternative could be 'copilot svc deploy'
 if [ "$1" == test ]; then
-  cd $base/ && git add . && git commit -m "Build pub_test: $date"
+  cd $base/ && git add . && git commit -m "Build TEST: $date"
 else
-  cd $base/ && git add . && git commit -m "Build pub_prod: $date"
+  cd $base/ && git add . && git commit -m "Build PROD: $date"
 fi
 
 git push
