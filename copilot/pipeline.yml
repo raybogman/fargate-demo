@@ -15,7 +15,7 @@ source:
   # has the following properties: repository, branch.
   properties:
     branch: master
-    repository: https://github.com/raybogman/serverless
+    repository: https://github.com/raybogman/fargate-demo
     # Optional: specify the name of an existing CodeStar Connections connection.
     # connection_name: a-connection
 
